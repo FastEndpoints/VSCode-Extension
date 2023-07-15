@@ -1,0 +1,58 @@
+{
+  "name": "vscode-fe",
+  "displayName": "FastEndpoints",
+  "publisher": "fastendpoints",
+  "description": "Official FastEndpoints extension",
+  "version": "1.0.0",
+  "preview": true,
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FastEndpoints/VSCode-Extension"
+  },
+  "bugs": {
+    "url": "https://github.com/FastEndpoints/VSCode-Extension/issues"
+  },
+  "homepage": "https://fast-endpoints.com",
+  "icon": "images/logo-black-128px.png",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "FastEndpoints",
+    "Snippets",
+    "Scaffolding"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./snippets/fe-snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.41.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.3",
+    "@vscode/test-electron": "^2.3.2"
+  }
+}
