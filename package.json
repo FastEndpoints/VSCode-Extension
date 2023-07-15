@@ -1,7 +1,7 @@
 {
-  "name": "vscode-fe",
+  "name": "fastendpoints",
   "displayName": "FastEndpoints",
-  "publisher": "fastendpoints",
+  "publisher": "drilko",
   "description": "Official FastEndpoints extension",
   "version": "1.0.0",
   "preview": true,
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/FastEndpoints/VSCode-Extension/issues"
   },
-  "homepage": "https://fast-endpoints.com",
+  "homepage": "https://github.com/FastEndpoints/VSCode-Extension",
   "icon": "images/logo-black-128px.png",
   "license": "SEE LICENSE IN LICENSE.md",
   "categories": [
