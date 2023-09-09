@@ -31,6 +31,9 @@ Type part of a snippet, choose snippet and press `TAB` to unfold the snippet.
 | `fe_postproc`                | Post Processor                                            |
 | `fe_global_preproc`          | Global Preprocessor                                       |
 | `fe_global_postproc`         | Global Post Processor                                     |
+| `fe_test_fixture`            | Test Fixture                                              |
+| `fe_test_class`              | Test Class                                                |
+| `fe_test_method`             | Test Method                                               |
 
 ## Changelog
 
