@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## [Unreleased]
 
+## [1.1.0] - 2023-09-09
+### Added
+- FastEndpoint snippets:
+  - Test Fixture
+  - Test Class
+  - Test Method
 ## [1.0.0] - 2023-07-15
 
 ### Added
